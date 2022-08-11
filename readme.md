@@ -3,7 +3,7 @@
 ### By Thalloju Shivaram
 
 
-## 🔗Live Link -: [ Business Landing Page ]()
+## 🔗Live Link -: [ Business Landing Page ](https://business-land.netlify.app/)
  
 
 ---

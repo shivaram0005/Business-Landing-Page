@@ -51,6 +51,9 @@ body{
     background-color: transparent;
     border: 1px solid #6c737e;
 }
+.background-color .navbar .barss{
+   display: none;
+}
 .hero{
     display: flex;
     flex-direction: row;
@@ -367,5 +370,77 @@ hr{
     color: #8c8c8c;
     font-size: 14px;
     font-weight: 600;
+}
+
+
+
+
+
+    /* media-quaries */
+
+@media screen and (max-width:1300px) {
+    .background-color{
+        height: 1200px;
+    }
+
+   .background-color .navbar .barss{
+    display: block;
+   }
+  .background-color .navbar .grow{
+    display: none;
+   }
+   .background-color .navbar .nav-button{
+    display: none;
+   }
+   .hero{
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .hero .hero-right{
+    position: relative;
+    top: 40px;
+   }
+   .hero .hero-right .hero-right-heading h2{
+    font-size: 35px;
+   }
+   .main-card .card{
+    display: flex;
+    flex-direction: column;
+   }
+   .main-card .card .left-card{
+    margin-bottom: 20px;
+   }
+   .main-card .card .right-card{
+    margin-bottom: 20px;
+   }
+   .main-card .card .left-card h2{
+    font-size: 25px;
+   }
+
+   .teams .teams-description .teams-description-right p{
+    font-size: 12px;
+   }
+   .team-members{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
+    
+   }
+   .footer .footer-items{
+    display: flex;
+    flex-wrap: wrap;
+   
+   }
+   .footer .footer-items .footer-item{
+    margin-top: 20px;
+   }
+   hr{
+    position: relative;
+    top: 30px;
+   }
 }
 
